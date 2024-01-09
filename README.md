@@ -7,7 +7,7 @@
     - [Development Server Configuration](#development-server-configuration)
     - [ng-extract-i18n-merge](#ng-extract-i18n-merge)
   - [server.ts](#serverts)
-    - [proxy-server.mjs](#proxy-servermjs)
+  - [proxy-server.mjs](#proxy-servermjs)
   - [Build and Production Execution](#build-and-production-execution)
 
 ## Introduction
@@ -153,7 +153,7 @@ The most relevant changes are:
 
 - Finally, comment or remove the `run()` function and its call, as proxy-server.mjs will handle it.
 
-### proxy-server.mjs
+## proxy-server.mjs
 
 The server Express is started by [proxy-server.mjs](src/proxy-server.mjs). It simply imports each of the app() functions and associates them with the corresponding path.
 
