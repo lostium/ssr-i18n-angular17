@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
+  <file id="ngi18n" original="ng.template">
+    <unit id="1164700553027795086">
+      <segment>
+        <source>Explore the Docs</source>
+      </segment>
+    </unit>
+    <unit id="3015030205107423892">
+      <segment>
+        <source>Angular DevTools</source>
+      </segment>
+    </unit>
+    <unit id="3724591343089785757">
+      <segment>
+        <source>Hello, <ph id="0" equiv="INTERPOLATION" disp="{{ title }}"/></source>
+      </segment>
+    </unit>
+    <unit id="5468757275907225559">
+      <segment>
+        <source>Congratulations! Your app is running. 🎉</source>
+      </segment>
+    </unit>
+    <unit id="5770256320186997375">
+      <segment>
+        <source>CLI Docs</source>
+      </segment>
+    </unit>
+    <unit id="7903364132195168077">
+      <segment>
+        <source>Angular Language Service</source>
+      </segment>
+    </unit>
+    <unit id="8921592434243629892">
+      <segment>
+        <source>Learn with Tutorials</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

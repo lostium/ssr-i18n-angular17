@@ -1,0 +1,46 @@
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US" trgLang="es">
+  <file id="ngi18n" original="ng.template">
+    <unit id="3724591343089785757">
+      <segment state="translated">
+        <source>Hello, <ph id="0" equiv="INTERPOLATION" disp="{{ title }}"/></source>
+        <target>Hola, <ph id="0" equiv="INTERPOLATION" disp="{{ title }}"/></target>
+      </segment>
+    </unit>
+    <unit id="5468757275907225559">
+      <segment state="translated">
+        <source>Congratulations! Your app is running. 🎉</source>
+        <target>¡Felicidades! Tu aplicación está en funcionamiento. 🎉</target>
+      </segment>
+    </unit>
+    <unit id="1164700553027795086">
+      <segment state="translated">
+        <source>Explore the Docs</source>
+        <target>Explora la Documentación</target>
+      </segment>
+    </unit>
+    <unit id="8921592434243629892">
+      <segment state="translated">
+        <source>Learn with Tutorials</source>
+        <target>Aprende con Tutoriales</target>
+      </segment>
+    </unit>
+    <unit id="5770256320186997375">
+      <segment state="translated">
+        <source>CLI Docs</source>
+        <target>Documentación de la CLI</target>
+      </segment>
+    </unit>
+    <unit id="7903364132195168077">
+      <segment state="translated">
+        <source>Angular Language Service</source>
+        <target>Servicio de Lenguaje de Angular</target>
+      </segment>
+    </unit>
+    <unit id="3015030205107423892">
+      <segment state="translated">
+        <source>Angular DevTools</source>
+        <target>Herramientas de Desarrollo de Angular</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
