@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
   <file id="ngi18n" original="ng.template">
-    <unit id="1164700553027795086">
-      <segment>
-        <source>Explore the Docs</source>
-      </segment>
-    </unit>
-    <unit id="3015030205107423892">
-      <segment>
-        <source>Angular DevTools</source>
-      </segment>
-    </unit>
     <unit id="3724591343089785757">
       <segment>
         <source>Hello, <ph id="0" equiv="INTERPOLATION" disp="{{ title }}"/></source>
@@ -19,6 +9,16 @@
     <unit id="5468757275907225559">
       <segment>
         <source>Congratulations! Your app is running. 🎉</source>
+      </segment>
+    </unit>
+    <unit id="1164700553027795086">
+      <segment>
+        <source>Explore the Docs</source>
+      </segment>
+    </unit>
+    <unit id="8921592434243629892">
+      <segment>
+        <source>Learn with Tutorials</source>
       </segment>
     </unit>
     <unit id="5770256320186997375">
@@ -31,9 +31,29 @@
         <source>Angular Language Service</source>
       </segment>
     </unit>
-    <unit id="8921592434243629892">
+    <unit id="3015030205107423892">
       <segment>
-        <source>Learn with Tutorials</source>
+        <source>Angular DevTools</source>
+      </segment>
+    </unit>
+    <unit id="7231073319816256061">
+      <segment>
+        <source>page-1 works!</source>
+      </segment>
+    </unit>
+    <unit id="590028770229408738">
+      <segment>
+        <source>page-2 works!</source>
+      </segment>
+    </unit>
+    <unit id="71982326177202349">
+      <segment>
+        <source>page-3 works!</source>
+      </segment>
+    </unit>
+    <unit id="5451346916159431017">
+      <segment>
+        <source>page-4 works!</source>
       </segment>
     </unit>
   </file>

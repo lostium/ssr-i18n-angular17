@@ -1,0 +1,23 @@
+nav {
+  margin: 50px;
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Alinea los elementos horizontalmente */
+    justify-content: space-around; /* Espaciado uniforme entre los elementos */
+  }
+}
+
+nav li {
+  display: inline; /* Hace que los elementos de la lista sean en línea */
+}
+
+nav a {
+  text-decoration: none; /* Opcional: elimina el subrayado de los enlaces */
+  padding: 10px; /* Espaciado alrededor del texto para una mejor apariencia */
+}
+/* Estilo para el enlace activo */
+.active-link {
+  color: #007bff; /* Cambia el color para la página activa, ajusta según tu diseño */
+  font-weight: bold; /* Opcional: hace que el texto sea negrita */
+}

@@ -33,13 +33,37 @@
     <unit id="7903364132195168077">
       <segment state="translated">
         <source>Angular Language Service</source>
-        <target>Angular Language Service</target>
+        <target>Angular Sprachdienst</target>
       </segment>
     </unit>
     <unit id="3015030205107423892">
       <segment state="translated">
         <source>Angular DevTools</source>
         <target>Angular DevTools</target>
+      </segment>
+    </unit>
+    <unit id="5451346916159431017">
+      <segment state="initial">
+        <source>page-4 works!</source>
+        <target>Seite 4 funktioniert!</target>
+      </segment>
+    </unit>
+    <unit id="7231073319816256061">
+      <segment state="initial">
+        <source>page-1 works!</source>
+        <target>Seite 1 funktioniert!</target>
+      </segment>
+    </unit>
+    <unit id="71982326177202349">
+      <segment state="initial">
+        <source>page-3 works!</source>
+        <target>Seite 3 funktioniert!</target>
+      </segment>
+    </unit>
+    <unit id="590028770229408738">
+      <segment state="initial">
+        <source>page-2 works!</source>
+        <target>Seite 2 funktioniert!</target>
       </segment>
     </unit>
   </file>
