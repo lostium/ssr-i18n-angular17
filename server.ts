@@ -51,9 +51,10 @@ export function app(): express.Express {
         bootstrap,
         documentFilePath: indexHtml,
         url: `${protocol}://${headers.host}${originalUrl}`,
-        publicPath: browserDistFolder,
+        publicPath:
+          lang !== 'en' ? browserDistFolder : browserDistFolder + langPath,
         providers: [
-          { provide: APP_BASE_HREF, useValue: langPath },
+          { provide: APP_BASE_HREF, useValue: lang !== 'en' ? langPath : '/' },
           { provide: LOCALE_ID, useValue: lang },
           { provide: RESPONSE, useValue: res },
           { provide: REQUEST, useValue: req },

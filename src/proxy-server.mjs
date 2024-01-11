@@ -13,7 +13,8 @@ function run() {
   server.use('/fr', serverFr());
   server.use('/de', serverDe());
   server.use('/es', serverEs());
-  server.use('/en', serverEn());
+  server.use('/', serverEn());
+
   server.listen(port, () => {
     console.log(`Node Express server listening on http://localhost:${port}`);
   });
