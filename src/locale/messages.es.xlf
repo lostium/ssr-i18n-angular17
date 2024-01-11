@@ -42,5 +42,29 @@
         <target>Herramientas de Desarrollo de Angular</target>
       </segment>
     </unit>
+    <unit id="5451346916159431017">
+      <segment state="initial">
+        <source>page-4 works!</source>
+        <target>page-4 funciona!</target>
+      </segment>
+    </unit>
+    <unit id="7231073319816256061">
+      <segment state="initial">
+        <source>page-1 works!</source>
+        <target>page-1 funciona!</target>
+      </segment>
+    </unit>
+    <unit id="71982326177202349">
+      <segment state="initial">
+        <source>page-3 works!</source>
+        <target>page-3 funciona!</target>
+      </segment>
+    </unit>
+    <unit id="590028770229408738">
+      <segment state="initial">
+        <source>page-2 works!</source>
+        <target>page-2 funciona!</target>
+      </segment>
+    </unit>
   </file>
 </xliff>
