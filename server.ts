@@ -21,7 +21,7 @@ export function app(): express.Express {
   /**
    * Note that the 'browser' folder is located two directories above 'server/{lang}/'
    */
-  const browserDistFolder = resolve(serverDistFolder, '../../browser');
+  const browserDistFolder = resolve(serverDistFolder, `../../browser/${lang}`);
   const indexHtml = join(serverDistFolder, 'index.server.html');
 
   const commonEngine = new CommonEngine();
@@ -35,7 +35,7 @@ export function app(): express.Express {
   // Complete the route for static content by concatenating the language.
   server.get(
     '*.*',
-    express.static(browserDistFolder + langPath, {
+    express.static(browserDistFolder, {
       maxAge: '1y',
     })
   );
