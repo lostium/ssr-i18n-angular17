@@ -106,7 +106,8 @@ The most relevant changes are:
   /**
    * Note that the 'browser' folder is located two directories above 'server/{lang}/'
    */
-  const browserDistFolder = resolve(serverDistFolder, '../../browser');
+  const browserDistFolder = resolve(serverDistFolder, `../../browser/${lang}`);
+
 ```
 
 - Adjust the route for static content by concatenating the language.
@@ -118,7 +119,7 @@ The most relevant changes are:
   // Complete the route for static content by concatenating the language.
   server.get(
     '*.*',
-    express.static(browserDistFolder + langPath, {
+    express.static(browserDistFolder, {
       maxAge: '1y',
     })
   );
