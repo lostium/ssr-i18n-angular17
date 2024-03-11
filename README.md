@@ -139,7 +139,7 @@ The most relevant changes are:
         bootstrap,
         documentFilePath: indexHtml,
         url: `${protocol}://${headers.host}${originalUrl}`,
-        publicPath: browserDistFolder,
+        publicPath: resolve(serverDistFolder, `../../browser/`), // publicPath does not need to concatenate the language.
         providers: [
           { provide: APP_BASE_HREF, useValue: langPath },
           { provide: LOCALE_ID, useValue: lang },
